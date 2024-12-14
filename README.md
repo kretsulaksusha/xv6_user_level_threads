@@ -171,7 +171,7 @@ All the commands executed in the video:
 ```bash
 make clean
 make
-make qemu-nox
+make qemu-nox CPUS=1
 
 ls
 uthread
